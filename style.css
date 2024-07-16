@@ -108,6 +108,12 @@ body{
     justify-content: center;
     gap: 20px;
     padding: 188px 0;
+    background-image:linear-gradient(to bottom,
+    rgba(46, 47, 66, 0.7), 
+    rgba(46, 47, 66, 0.7)), url(./images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .hero-image-text{
     font-weight: 700;
@@ -189,6 +195,16 @@ p {
 }
 .feature-description {
     letter-spacing: normal;
+}
+
+.rectangle {
+    
+    gap: 0px;
+    border-radius: 4px;
+    opacity: 0px;
+    border: 1px solid var(--light-slate);
+    background-color: var(--cloud) ;
+       
 }
 /* h2 */
 .section-title {    
@@ -339,4 +355,11 @@ padding: 32px 16px;
 .social-links {
     display:flex;
     gap:16px;
+    padding: 8px;
+    
+}
+.social {
+    
+    display: flex;
+    justify-content: center;
 }
