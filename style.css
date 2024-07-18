@@ -385,11 +385,17 @@ padding: 32px 16px;
     justify-content: center;
     align-items: center;
 }
+.elipse:hover, .elipse:focus {
+    background-color: var(--ocean);
+    cursor: pointer;
+}
 
-footer .elipse:hover {
+footer .elipse:hover, .elipse:focus {
     background-color: var(--green);
     cursor: pointer;
 }
+
+
 .social-text {
     font-family: Roboto;
     font-size: 16px;
@@ -398,7 +404,7 @@ footer .elipse:hover {
     letter-spacing: 0.02em;
     text-align: left;
     color:var(--white);
-    padding: 16px,0;
+    padding-bottom: 16px;
 }
 
 .social-links {
@@ -407,20 +413,15 @@ footer .elipse:hover {
     padding: 8px, 0;
 }
 
-/**** next to*****/
-.text {
-    position:relative;
-}
 
-.social {
-    position: absolute;
-    width: 208px;
-    height: 80px;
-    top: 3256px;
-    left: 540px;
-    gap: 0px;
-    opacity: 0px;
-    
-} 
+
+/**** next to*****/
+.component {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap:120px;
+}
+ 
   
     
