@@ -238,7 +238,7 @@ p {
     text-align: center;
     color: var(--navy-blue);
     padding-bottom: 72px;
-    margin-bottom: 8px;
+
 }
 .team-card {
     padding: 120px 0px; 
@@ -369,6 +369,7 @@ padding: 32px 16px;
     letter-spacing: 0.02em;
     color: var(--cloud);
     width: 264px;
+    padding-top: 16px;
 }
 
 /********* social links**********/
@@ -418,8 +419,7 @@ footer .elipse:hover, .elipse:focus {
 /**** next to*****/
 .component {
     display: flex;
-    align-items: center;
-    /* justify-content: space-between; */
+    align-items: baseline;
     gap:120px;
 }
  
