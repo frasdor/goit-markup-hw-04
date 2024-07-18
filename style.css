@@ -194,6 +194,11 @@ p {
     flex-direction: row;
     gap: 24px;
 }
+
+.feature-title {
+     margin-bottom: 8px;
+}    
+
 .feature-description {
     letter-spacing: normal;
     position: relative;
@@ -280,6 +285,7 @@ padding: 32px 16px;
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--navy-blue);
+    margin-bottom: 8px;
 }
 
 .team-member-role{
@@ -311,6 +317,12 @@ padding: 32px 16px;
 .products-item{ 
     width: calc((100% - 48px) / 3);
 } 
+
+.products-item:hover{
+    box-shadow:  0px 2px 1px 0px #2E2F4214, 0px 1px 1px 0px #2E2F4229, 0px 1px 6px 0px #2E2F4214;
+    
+}
+
 .products-link {
     text-decoration: none;
    
@@ -328,10 +340,19 @@ padding: 32px 16px;
     padding: 32px 16px;
 }
 
+.card-name{
+    margin-bottom: 8px;
+}
+
 /* footer */
+
 .page-footer{
     background-color: var(--navy-blue);
     padding: 100px 0; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 .page-footer a {
     font-family: "Raleway", sans-serif;
@@ -377,14 +398,29 @@ footer .elipse:hover {
     letter-spacing: 0.02em;
     text-align: left;
     color:var(--white);
-
+    padding: 16px,0;
 }
 
 .social-links {
     display:flex;
     gap:16px;
-    padding: 8px;
+    padding: 8px, 0;
 }
 
+/**** next to*****/
+.text {
+    position:relative;
+}
+
+.social {
+    position: absolute;
+    width: 208px;
+    height: 80px;
+    top: 3256px;
+    left: 540px;
+    gap: 0px;
+    opacity: 0px;
+    
+} 
   
     
